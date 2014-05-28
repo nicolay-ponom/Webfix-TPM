@@ -1,0 +1,56 @@
+
+body{background: none;}
+#wrapper {width:100%;}
+#content-container{padding:0px;}
+.logo{margin:0px 0px; padding:10px; width:calc(100% - 20px);}
+.logo #logoimg {padding-right: 10px;}
+.logo #logoimg img{width: 3em;}
+.logo .sitename h1{font-size:1.9em;font-weight: normal;}
+.logo .sitename h1 a:link, .logo .sitename h1 a:visited{vertical-align: middle;}
+.logo .sitename h2 {display: none}
+.social-icons {display: none;}
+#touch-menu {
+	line-height:40px;
+	color: #A1A1A1;
+	padding: 0px 13px;
+	position: relative;
+	display:block;
+}
+#kredo {font-size: 1.175em;}
+.breadcrumb{ display: none;}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+}
+
+#main-menu {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#main-menu ul{ display:none; position: absolute; z-index: 555;}
+
+#main-menu li {width:100%;	background:#333;}
+
+.menu > li {border-bottom: 1px solid #7f7f7f;}
+
+.menu > li:last-child {border-bottom: 0 none;}
+
+.fa {vertical-align:inherit; padding: 0 10px;}
+
+@media screen and (min-width:480px) and (max-width:800px) {
+.social-icons {display: inline;}
+.social-icons li {float: left; padding: 0 5px; list-style: none;}
+.social-icons img {padding: 8px 0; height: 32px;} 
+}
+
+.box{
+	width:100%; 
+	padding: 1.5em 0;
+	border-bottom: 2px solid #7f7f7f;
+}
+
+
+.imgborder img { width:100%}

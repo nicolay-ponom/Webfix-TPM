@@ -1,0 +1,138 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,800&subset=latin,cyrillic);
+
+
+nav {
+    background: none repeat scroll 0 0 #3E4156;
+    display: block;
+    margin-top: 100px;
+}
+.menu {
+    display: block;
+}
+.menu li {
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+}
+.menu li:first-child {
+    margin-left: 0;
+}
+.menu li a {
+    color: #FFFFFF;
+    display: block;
+    font-weight: 600;
+    padding: 11px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+}
+.menu li a:hover, .menu li:hover > a {
+    background: none repeat scroll 0 0 #9CA3DA;
+    color: #FFFFFF;
+}
+.menu ul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 43px;
+    width: 150px;
+}
+.menu ul li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    color: #797979;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+.menu ul li a:hover, .menu ul li:hover > a {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-left: 3px solid #9CA3DA;
+    color: #797979;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu ul ul {
+    left: 149px;
+    top: 0;
+}
+.mobile-menu {
+    background: none repeat scroll 0 0 #3E4156;
+    color: #FFFFFF;
+    display: none;
+    font-weight: 600;
+    padding: 11px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.mobile-menu:hover {
+    background: none repeat scroll 0 0 #3E4156;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+.mainWrap {
+    width: 768px;
+}
+.menu ul {
+    top: 37px;
+}
+.menu li a {
+    font-size: 12px;
+    padding: 8px;
+}
+}
+@media (max-width: 767px) {
+.menu {
+    display: none;
+}
+.mobile-menu {
+    display: block;
+    //margin-top: 100px;
+}
+nav {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0;
+}
+.menu li {
+    display: block;
+    margin: 0;
+}
+.menu li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    border-top: 1px solid #E0E0E0;
+    color: #797979;
+}
+.menu li a:hover, .menu li:hover > a {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-left: 3px solid #9CA3DA;
+    color: #797979;
+}
+.menu ul {
+    display: block;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.menu ul ul {
+    left: 0;
+}
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+

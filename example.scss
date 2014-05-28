@@ -1,0 +1,7 @@
+$background: #ff0000;
+body {
+  background: darken($background, 20%);
+}
+.node {
+  background: lighten($background, 45%);
+}

@@ -1,0 +1,105 @@
+/* The Outer cover */
+
+#wrapper {
+	padding:30px 0;
+}
+body{
+	background:url(images/ukraine.jpg?r=397) no-repeat fixed center top;
+	background-size: 100% 100%;
+}
+
+.inwrap{
+	background-color: #fff;
+	box-shadow: 0px 0px 30px;
+	border: 1px solid #333;
+}
+
+/* TOP */
+.logo{
+	padding:25px;
+	width:95%;
+}
+
+.logo #logoimg img{
+	width: 6em;
+}
+
+.logo .sitename {
+	padding-left:20px;
+	padding-top:10px
+}
+
+.logo .sitename h1{
+	font-size:2.45em;
+}
+
+/* Social bookmarks */
+
+.social-icons {
+	padding-top: 24px;
+}
+
+.social-icons li {
+	font-size: 0.6875em;
+	text-transform: uppercase;
+}
+
+/* PRIMARY NAVIGATION */
+
+
+#kredo {
+	font-size: 1.375em;
+}
+
+#logo_studio { 
+	padding-top: 15px;
+	padding-left: 25px;
+	float: left;
+}
+
+.mobile-menu{display:none;}
+
+#main-menu {
+	width:100%;
+	margin: 0 auto;
+	display: table;
+}
+
+#main-menu ul {
+	display: table;
+}
+
+#menu-container {
+	background: #222;
+}
+
+
+.box {
+	width: calc(50% - 24px);
+	margin: 20px 10px;
+}
+
+
+/* 2 columns: sidebar-second */
+
+body.sidebar-second #content {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 75%;
+}
+
+body.two-sidebars #sidebar-first {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+}
+
+body.sidebar-second #sidebar-second {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+}
+
